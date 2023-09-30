@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     "requirements",
     "candidates",
     "interviews",
-    "users"
+    "users",
+    "drf_yasg"
 ]
 
 AUTH_USER_MODEL = "users.User"
@@ -145,5 +146,5 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
-    ]
+    ],
 }
